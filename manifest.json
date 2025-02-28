@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "AI Screenshot MC Helper",
+    "version": "1.0",
+    "permissions": ["activeTab", "storage", "downloads", "scripting"],
+    "host_permissions": ["http://localhost:3000"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
